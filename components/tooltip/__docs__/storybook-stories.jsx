@@ -69,7 +69,7 @@ storiesOf(POPOVER_TOOLTIP, module)
 			align: 'bottom',
 			id: 'myPopoverId',
 			content:
-				'wjeifowejfiwoefjweoifjweiofjweiofwjefiowejfiowejfiowefjweiofjweiofjweiofjiwoefjowiefjoiwejfiowejfoie',
+				'Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi.',
 		})
 	)
 	.add('Learn More', () => <LearnMoreExample />)
@@ -81,7 +81,7 @@ storiesOf(POPOVER_TOOLTIP, module)
 			isOpen: true,
 			id: 'myPopoverId',
 			content:
-				'wjeifowejfiwoefjweoifjweiofjweiofwjefiowejfiowejfiowefjweiofjweiofjweiofjiwoefjowiefjoiwejfiowejfoie',
+				'Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi.',
 		})
 	)
 	.add('Alignment (Button)', () =>
@@ -89,7 +89,7 @@ storiesOf(POPOVER_TOOLTIP, module)
 			id: 'myPopoverId',
 			isOpen: true,
 			content:
-				'wjeifowejfiwoefjweoifjweiofjweiofwjefiowejfiowejfiowefjweiofjweiofjweiofjiwoefjowiefjoiwejfiowejfoie',
+				'Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi.',
 			trigger: <Button label="Trigger Tooltip" />,
 		})
 	)
@@ -98,7 +98,7 @@ storiesOf(POPOVER_TOOLTIP, module)
 			id: 'myPopoverId',
 			isOpen: true,
 			content:
-				'wjeifowejfiwoefjweoifjweiofjweiofwjefiowejfiowejfiowefjweiofjweiofjweiofjiwoefjowiefjoiwejfiowejfoie',
+				'Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi.',
 			trigger: (
 				<span tabIndex="0" key="trigger">
 					Trigger Tooltip
@@ -112,8 +112,7 @@ storiesOf(POPOVER_TOOLTIP, module)
 			isOpen: true,
 			content: (
 				<span>
-					<Icon category="utility" inverse name="close" size="x-small" />wjeifowejfiwoefjweoifjweiofjweiofwjefiowejfiowejfiowefjweiofjweiofjweiofjiwoefjowiefjoiwejfiowejfoie
-				</span>
+					<Icon category="utility" inverse name="close" size="x-small" />Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi.</span>
 			), // react/no-unescaped-entities
 			trigger: (
 				<Icon
