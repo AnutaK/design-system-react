@@ -166,7 +166,7 @@ const Item = (props) => {
 				<Button
 					tabIndex="-1"
 					aria-hidden
-					assistiveText={{ icon: '' }}
+					assistiveText={{ icon: this.props.expandBranchLabel }}
 					role="presentation"
 					iconCategory="utility"
 					iconName="chevronright"

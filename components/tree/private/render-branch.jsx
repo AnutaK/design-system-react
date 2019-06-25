@@ -304,7 +304,7 @@ const RenderBranch = (children, props) => {
 				{/* eslint-enable jsx-a11y/no-static-element-interactions */}
 				<Button
 					aria-hidden
-					assistiveText={{ icon: 'Expand Tree Branch' }}
+					assistiveText={{ icon: this.props.expandBranchLabel }}
 					iconCategory="utility"
 					iconName="chevronright"
 					iconSize="small"

@@ -27,6 +27,7 @@ const propTypes = {
 	 */
 	assistiveText: PropTypes.shape({
 		label: PropTypes.string,
+		expandBranchLabel: PropTypes.string,
 	}),
 	/**
 	 * Class names to be added to the container element which has the heading and the `ul.slds-tree` element as children.
